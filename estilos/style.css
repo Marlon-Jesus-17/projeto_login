@@ -71,3 +71,52 @@ main{
     text-align: center;
     padding-bottom: 20px;
 }
+
+.campo{
+    background-color: var(--marrom);
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+label{
+    display: none;
+}
+
+input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: var(--creme);
+    border-radius: 8px;
+}
+
+input[type=submit]:hover{
+    background-color: var(--marrom_claro);
+    cursor: pointer;
+}
+
+a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 7px;
+    margin-top: 5px;
+    background-color: var(--creme);
+    border: 2px solid rgba(0, 0, 0, 0.474);
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+a.botao:hover{
+    background-color: var(--marrom_claro);
+    cursor: pointer;
+}
+
+a.botao > span{
+    font-size: 0.8em;
+}
