@@ -72,15 +72,33 @@ main{
     padding-bottom: 20px;
 }
 
-.campo{
+div.campo{
     background-color: var(--marrom);
+    border: 2px solid var(--marrom);
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
 label{
     display: none;
+}
+
+.campo span{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+.campo input{
+    background-color: rgb(206, 203, 203);
+    width: calc(100% - 45px);
+    height: 100%;
+    transform: translateY(-14px);
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
 }
 
 input[type=submit]{
