@@ -2,7 +2,6 @@
 
 /* 
     Paleta de cores
-    Vermelho: #A60321
     Creme: #F2E9D8
     Marrom: #8C5C32
     Marrom Claro: #D9A577
@@ -17,7 +16,6 @@
 }
 
 :root{
-    --vermelho: #A60321;
     --creme: #F2E9D8;
     --marrom: #8C5C32;
     --marrom_claro: #D9A577;
@@ -34,12 +32,13 @@ main{
     position: relative;
     height: 100vh;
     width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #login{
-    position: absolute;
-    top: 50%;
-    left: 50%;
     overflow: hidden;
 
     background-color: var(--creme);
@@ -48,7 +47,6 @@ main{
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
 
-    transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
